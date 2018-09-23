@@ -1,0 +1,20 @@
+body {
+	font-family: Tahoma;
+	text-align: left;
+	background-color: rgb(239,246,246);
+}
+p {
+	color:green;
+}
+h1 {
+	color: blue;
+}
+span {
+	font-weight: bold;
+	color:red;
+}
+canvas {
+	display: block;
+	margin-right: 5% auto;
+	border:2px solid black;
+}
