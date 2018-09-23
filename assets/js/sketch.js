@@ -3,7 +3,6 @@ var box = [];
 var block;
 var lenght = 20;
 var score = 0;
-var dead = false;
 
 function setup() {
   createCanvas(500, 500);
