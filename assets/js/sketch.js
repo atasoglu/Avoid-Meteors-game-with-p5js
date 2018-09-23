@@ -28,7 +28,6 @@ function gameOver() {
 	for (var i=0;i<lenght;i++) {
   	if ((box[i].yCrd+scl) == block.yCrd) {
     	for (var j=1;j<(block.blockLength/scl);j++) {
-				console.log("Selam");        
         if (box[i].xCrd == block.xCrd+j*scl || (box[i].xCrd+scl) == block.xCrd+j*scl) {
         	noLoop();
           dead = true;
