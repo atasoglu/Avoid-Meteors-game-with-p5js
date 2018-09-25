@@ -1,6 +1,6 @@
 body {
 	font-family: Tahoma;
-	text-align: left;
+	text-align: center;
 	background-color: rgb(239,246,246);
 }
 p {
@@ -15,6 +15,6 @@ span {
 }
 canvas {
 	display: block;
-	margin-right: 5% auto;
+	margin: 2% auto;
 	border:2px solid black;
 }
