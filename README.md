@@ -5,6 +5,7 @@ Doğrudan videodaki kodlara ulaşmak için: assets/js/sketch.js
 dizinine göz atın.
 Video linki: https://www.youtube.com/watch?v=y6MfurMcaSk&t=3s
 Sağ ve sol ok tuşlarını kullanarak oyunu oynayabilirsiniz.
+Oyunu çalıştırmak için "index.html" dosyasını herhangi bir web tarayıcısı ile açın.
 İyi eğlenceler.
 
 --en--
