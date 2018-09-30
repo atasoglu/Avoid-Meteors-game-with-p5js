@@ -9,7 +9,6 @@ function setup() {
   for (var i=0;i<length;i++) {
   	box[i] = new Box();
   }
-  // box = new Box();
   block = new Block();
   textSize(22);
   textFont("Tahoma");
@@ -30,8 +29,8 @@ function gameOver() {
     	for (var j=1;j<(block.blockLength/kenar);j++) {
       	if (box[i].x == block.x+j*kenar || box[i].x+kenar == block.x+j*kenar) {
         	noLoop();
-          fill(255,0,0);
-          text("Game Over",width/2-60,100);
+          fill(51,85,255);
+          text("GAME OVER!",width/2-60,100);
           break;
         }
       }
@@ -48,7 +47,7 @@ function draw() {
   }
   block.show();
   gameOver();
-  fill(255,255,0);
+  fill(0);
   text("Score: " + score,30,50);
 }
 
@@ -75,7 +74,6 @@ function Block() {
 	this.blockLength = kenar * 4;
   this.x = (width-this.blockLength)/2;
   this.y = height-kenar;
-  // this.xSpeed = 3.5;
   this.move = function(xSpeed) {
   	this.x += xSpeed;
   }
